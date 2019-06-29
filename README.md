@@ -9,12 +9,14 @@ The game is played using 4 push buttons and 5 leds. Each button sends to the cod
 
 Due to deadlines, the group was not able to implement all the planned features, but here is a complete list of all of them:
 
-- [ ] Python script to generate matrix representation out of human readable mazes
-- [ ] Visualization of the surroundings of the maze using 4 leds (1x1 cell)
+- [x] Python script to generate matrix representation out of human readable mazes
+- [x] Visualization of the surroundings of the maze using 4 leds (1x1 cell)
 - [ ] Visualization of the surroundings of the maze using 24 leds (3x3 cell)
-- [ ] Move buttons and camera adapting to new position
+- [x] Move buttons and camera adapting to new position
+- [x] Blink led when invalid movement
+- [x] Turn led on on victory
 - [ ] Random maze generator
-- [ ] Reset button
+- [x] Reset button
 - [ ] Display to show passed time (speedrun like) (that's why we used analogic pins for buttons, but we ended up not using the display, so there are a bunch of digital pins free now)
 - [ ] Levels of dificulty (1x1, 2x2 ou 3x3 grid)
 - [ ] Send maze to android by bluetooth
