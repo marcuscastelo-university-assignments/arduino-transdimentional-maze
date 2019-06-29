@@ -7,6 +7,9 @@ This project was developed during the classes of SSC0180 - Electronics for Compu
 
 The game is played using 4 push buttons and 5 leds. Each button sends to the code which direction to move (North, East, South or West). 4 of 5 leds show possible movements within the square (cell of the maze) the player is located (you can think of it as a room with 4 doors, where each activated led is an open door that you can go in). The 5th led blinks when the player tries to make an invalid movement (e.g. walk into a closed door, indicated by a led off) and turns on when the player wins (i.e. escapes the maze).
 
+Watch the video (Audio in Portuguese):\
+[Project Demonstration (YouTube)](https://youtu.be/FJaK3r3h1Cw)
+
 ## Features (W.I.P) - Playable
 
 Due to deadlines, the group was not able to implement all the planned features, but here is a complete list of all of them:
