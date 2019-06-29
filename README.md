@@ -1,6 +1,8 @@
 # Arduino Transdimentional Maze
 This is the first release of Transdimentional Maze. It's a game for arduino that simulates a first person perspective of an adventure over a maze.
 
+This project was developed during the classes of SSC0180 - Electronics for Computer Sciences at USP - São Carlos.
+
 ## How to play
 
 The game is played using 4 push buttons and 5 leds. Each button sends to the code which direction to move (North, East, South or West). 4 of 5 leds show possible movements within the square (cell of the maze) the player is located (you can think of it as a room with 4 doors, where each activated led is an open door that you can go in). The 5th led blinks when the player tries to make an invalid movement (e.g. walk into a closed door, indicated by a led off) and turns on when the player wins (i.e. escapes the maze).
